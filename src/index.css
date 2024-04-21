@@ -1,0 +1,82 @@
+
+.card {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+
+    padding: 35px;
+
+    border-radius: 10px;
+
+    text-align: center;
+
+    word-wrap: break-word;
+
+    width: 20vw;
+}
+
+.card-image {
+    width: 20vw;
+    padding: 5px;
+}
+
+.card-chooser {
+
+}
+.card-heading {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    font-size: 1.5rem;
+
+    margin-bottom: 20px;
+
+    word-wrap: break-word;
+}
+
+.card-title {
+    padding-top: 8px;
+    font-size: 1.5rem;
+}
+
+.card-skills > div{
+    padding-top: 10px;
+}
+
+.passive-name, .main-name, .ultimate-name {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.passive-description, .main-description, .ultimate-description {
+    font-size: 1rem;
+    padding-top: 5px;
+}
+
+.editor {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: 100px;
+}
+
+.editor > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.editor label {
+    min-width: 120px;
+}
+
+.editor input, .card-chooser {
+    flex: 1;
+    padding: 5px;
+}
+
+
+.editor > div > input {
+    width: 500px;
+}
