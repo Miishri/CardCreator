@@ -18,6 +18,8 @@
 .card-image {
     width: 20vw;
     padding: 5px;
+
+    border-radius: 10px;
 }
 
 .card-chooser {
