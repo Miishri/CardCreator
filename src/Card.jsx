@@ -93,7 +93,7 @@ export default function Card () {
                 <input className={"edit-main-description"} minLength={1} type="text"
                        value={mainDescription}
                        onChange={(e) => {
-                           setPassiveDescription(e.target.value);
+                           setMainDescription(e.target.value);
                        }}></input>
             </div>
             <div>
